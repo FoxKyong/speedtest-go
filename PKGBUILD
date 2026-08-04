@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034,SC2154
 # Maintainer: Abdulkadir Furkan Şanlı <me@abdulocra.cy>
+# Contributor: Radim Vančo (FoxKyong) <radim.vanco@jifox.cz>
 
 pkgname='speedtest-go'
-pkgver='1.7.10'
+pkgver='1.7.11'
 pkgrel='1'
 pkgdesc='CLI and Go API to Test Internet Speed using speedtest.net'
 arch=('x86_64')
@@ -13,7 +14,7 @@ makedepends=('go')
 provides=("${pkgname}")
 conflicts=("${pkgname}")
 source=("${url}/archive/refs/tags/v${pkgver}.tar.gz")
-sha256sums=('70a2937d0759820fe7ee8f61b960d60c07b34c0d783ed11c0065b68fe2964aea')
+sha256sums=('256ea7ce1b3ae1fec3158cad47d75ca67fe33ddd41cab5e2db028a4f0870f00f')
 
 build ()
 {
