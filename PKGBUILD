@@ -4,7 +4,7 @@
 # Contributor: Radim Vančo (FoxKyong) <radim.vanco@jifox.cz>
 
 pkgname='speedtest-go'
-pkgver='1.8.2'
+pkgver='1.8.3'
 pkgrel='1'
 pkgdesc='CLI and Go API to Test Internet Speed using speedtest.net'
 arch=('x86_64')
@@ -14,7 +14,7 @@ makedepends=('go')
 provides=("${pkgname}")
 conflicts=("${pkgname}")
 source=("${url}/archive/refs/tags/v${pkgver}.tar.gz")
-sha256sums=('01c518f34eefbb6653a33538bb27daed4ef56318741b3d2d5412e9a3d81bed6e')
+sha256sums=('48d01137468da9d419a3940a652803dafd8a6820abcd985b85c9d0c86b417ba3')
 
 build ()
 {
